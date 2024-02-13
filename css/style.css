@@ -30,16 +30,17 @@ a:hover {
     --color-footer-bg: #1A1A1A;
 }
 
-body{
+body {
     font-family: "Poppins", sans-serif;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0px auto;
     padding: 0px;
 }
 
-.container-big{
+.container-big {
     max-width: 1200px;
     margin: 0px auto;
     padding: 0px;
@@ -47,164 +48,163 @@ body{
 }
 
 /* header */
-header{
+header {
     background-color: var(--color-header-bg);
     padding: 15px 0px;
     box-shadow: 1px 1px 5px var(--color-footer-bg);
 }
 
-.fixed{
+.fixed {
     position: fixed;
     top: 0;
     width: 100%;
     margin: 0 auto;
 }
 
-.logo{
+.logo {
     width: 10%;
 }
 
 
 /* main */
-section{
+section {
     position: ;
 }
 
-.card{
+.card {
     position: relative;
     width: calc(100% / 3 - 20px);
     cursor: pointer;
 }
 
-.card:hover .main-img{
+.card:hover .main-img {
     display: none;
 }
 
-.card:hover .secondary-img{
+.card:hover .secondary-img {
     display: block;
 }
 
-img{
+img {
     display: block;
     width: 100%;
 }
 
-.secondary-img{
+.secondary-img {
     display: none;
 }
 
-.heart{
+.heart {
     background-color: var(--color-primary);
-    width: 44px;
+    width: 53px;
     text-align: center;
-    padding: 5px;
-    font-size: 30px;
+    font-size: 35px;
     position: absolute;
-    top: 1%;
+    top: 1.5%;
     right: 0px;
 }
 
-.heart:hover{
+.heart:hover {
     color: red;
 }
 
-.budges{
+.budges {
     width: 50px;
     text-align: center;
     padding: 2px;
 }
 
-.bdgs-red{
+.bdgs-red {
     background-color: red;
     color: var(--color-primary);
 }
 
-.bdgs-green{
+.bdgs-green {
     background-color: green;
     color: var(--color-primary);
     width: 100px;
 }
 
-.bdgs-position{
+.bdgs-position {
     position: absolute;
     top: 70%;
     left: 0px;
 }
 
 
-.description{
+.description {
     line-height: 22px;
 }
 
-.brand{
+.brand {
     font-size: small;
+    font-weight: 500;
 }
 
-.price{
+.price {
     font-weight: 700;
 }
 
 /* footer */
 
-footer{
+footer {
     background-color: var(--color-footer-bg);
     padding: 10px 10px 30px;
 }
 
-footer h2{
+footer h2 {
     font-size: 20px;
 }
 
-
-
 /* utility */
 
-.flex{
+.flex {
     display: flex;
     flex-wrap: wrap;
 }
 
-.column{
+.column {
     flex-direction: column;
 }
 
-.gap{
+.gap {
     gap: 10px;
 }
 
-.gap-card{
+.gap-card {
     gap: 40px 20px;
 }
 
-.gap-budges{
+.gap-budges {
     gap: 10px;
 }
 
-.space-btwn{
+.space-btwn {
     justify-content: space-between;
 }
 
-.align-items{
+.align-items {
     align-items: center;
 }
 
-.pdg-prova{
+.pdg-prova {
     padding: 10px 0px;
 }
+
 /* text utility */
 
-.text-white{
+.text-white {
     color: var(--color-primary);
 }
 
-.text-red{
+.text-red {
     color: red;
 }
 
-.text-small{
+.text-small {
     font-size: small;
 }
 
-.text-lrg{
+.text-lrg {
     font-size: large;
 }
