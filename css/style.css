@@ -26,8 +26,7 @@ a:hover {
 
 .container{
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
+    margin: 0px auto;
 }
 
 /* header */
@@ -37,6 +36,7 @@ header{
 
 .card{
     position: relative;
+    width: calc(100% / 3 - 10px);
 }
 
 img{
@@ -79,11 +79,14 @@ img{
 
 .bdgs-position{
     position: absolute;
-    top: 85%;
+    top: 70%;
     left: 0px;
 }
 
 /* main */
+section{
+    position: ;
+}
 
 /* footer */
 
@@ -94,8 +97,14 @@ img{
     flex-wrap: wrap;
 }
 
+
 .gap-card{
-    gap: 5px;
+   
+    gap: 50px 10px;
+}
+
+.column{
+    flex-direction: column;
 }
 
 .space-btwn{
