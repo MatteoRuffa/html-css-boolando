@@ -46,11 +46,6 @@ body{
     padding: 50px 0px;
 }
 
-
-ul li{
-    padding: 5px;
-}
-
 /* header */
 header{
     background-color: var(--color-header-bg);
@@ -142,8 +137,14 @@ img{
 
 footer{
     background-color: var(--color-footer-bg);
-    padding: 10px;
+    padding: 10px 10px 30px;
 }
+
+footer h2{
+    font-size: 20px;
+}
+
+
 
 /* utility */
 
@@ -157,11 +158,11 @@ footer{
 }
 
 .gap{
-    gap: 20px;
+    gap: 10px;
 }
 
 .gap-card{
-    gap: 20px;
+    gap: 40px 20px;
 }
 
 .space-btwn{
@@ -173,7 +174,7 @@ footer{
 }
 
 .pdg-prova{
-    padding: 40px;
+    padding: 10px 0px;
 }
 /* text utility */
 
@@ -187,4 +188,8 @@ footer{
 
 .text-small{
     font-size: small;
+}
+
+.text-lrg{
+    font-size: large;
 }
