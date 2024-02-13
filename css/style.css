@@ -35,8 +35,52 @@ header{
     background-color: var(--color-header-bg);
 }
 
+.card{
+    position: relative;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
 .logo{
     width: 10%;
+}
+
+.heart{
+    background-color: var(--color-primary);
+    width: 44px;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    position: absolute;
+    top: 1%;
+    right: 0px;
+
+}
+
+.budges{
+    width: 50px;
+    text-align: center;
+    padding: 2px;
+}
+
+.bdgs-red{
+    background-color: red;
+    color: var(--color-primary);
+}
+
+.bdgs-green{
+    background-color: green;
+    color: var(--color-primary);
+    width: 100px;
+}
+
+.bdgs-position{
+    position: absolute;
+    top: 85%;
+    left: 0px;
 }
 
 /* main */
@@ -47,6 +91,11 @@ header{
 
 .flex{
     display: flex;
+    flex-wrap: wrap;
+}
+
+.gap-card{
+    gap: 5px;
 }
 
 .space-btwn{
@@ -61,4 +110,8 @@ header{
 
 .text-white{
     color: var(--color-primary);
+}
+
+.text-red{
+    color: red;
 }
