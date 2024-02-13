@@ -98,7 +98,7 @@ img{
     display: none;
 }
 
-.black-heart{
+.heart{
     background-color: var(--color-primary);
     width: 44px;
     text-align: center;
@@ -109,15 +109,9 @@ img{
     right: 0px;
 }
 
-.red-heart{
-    display: none;
+.heart:hover{
+    color: red;
 }
-
-/* .heart:hover .black-heart{
-    display: none;
-}
-
-.black-heart: */
 
 .budges{
     width: 50px;
