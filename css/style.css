@@ -17,11 +17,48 @@ a:hover {
     text-decoration: underline;
 }
 
-/* utility */
+/* general */
+:root {
+    --color-primary: #FFFFFF;
+    --color-header-bg: #FF6900;
+    --color-footer-bg: #1A1A1A;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
 
 /* header */
+header{
+    background-color: var(--color-header-bg);
+}
+
+.logo{
+    width: 10%;
+}
 
 /* main */
 
 /* footer */
 
+/* utility */
+
+.flex{
+    display: flex;
+}
+
+.space-btwn{
+    justify-content: space-between;
+}
+
+.align-items{
+    align-items: center;
+}
+
+/* text utility */
+
+.text-white{
+    color: var(--color-primary);
+}
