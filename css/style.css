@@ -55,7 +55,7 @@ ul li{
 header{
     background-color: var(--color-header-bg);
     padding: 15px 0px;
-    box-shadow: 10px 10px #1A1A1A ;
+    box-shadow: 1px 1px 5px var(--color-footer-bg);
 }
 
 .fixed{
