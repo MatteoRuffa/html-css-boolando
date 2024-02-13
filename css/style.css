@@ -15,7 +15,13 @@ a {
 
 a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
+
+/* @font-face {
+    font-family: HelveticaNow;
+    src: url(../fonts/HelveticaNowText-Medium.otf);
+} */
 
 /* general */
 :root {
@@ -24,19 +30,63 @@ a:hover {
     --color-footer-bg: #1A1A1A;
 }
 
+body{
+    font-family: HelveticaNow, 'Times New Roman';
+}
 .container{
     max-width: 1200px;
     margin: 0px auto;
+    padding: 0px;
+}
+
+.container-big{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px;
+    padding: 50px 0px;
+}
+
+
+ul li{
+    padding: 5px;
 }
 
 /* header */
 header{
     background-color: var(--color-header-bg);
+    padding: 15px 0px;
+    box-shadow: 10px 10px #1A1A1A ;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 10%;
+}
+
+
+/* main */
+section{
+    position: ;
 }
 
 .card{
     position: relative;
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 20px);
+    cursor: pointer;
+}
+
+.card:hover .main-img{
+    display: none;
+}
+
+.card:hover .secondary-img{
+    display: block;
 }
 
 img{
@@ -44,11 +94,11 @@ img{
     width: 100%;
 }
 
-.logo{
-    width: 10%;
+.secondary-img{
+    display: none;
 }
 
-.heart{
+.black-heart{
     background-color: var(--color-primary);
     width: 44px;
     text-align: center;
@@ -57,8 +107,17 @@ img{
     position: absolute;
     top: 1%;
     right: 0px;
-
 }
+
+.red-heart{
+    display: none;
+}
+
+/* .heart:hover .black-heart{
+    display: none;
+}
+
+.black-heart: */
 
 .budges{
     width: 50px;
@@ -83,10 +142,7 @@ img{
     left: 0px;
 }
 
-/* main */
-section{
-    position: ;
-}
+
 
 /* footer */
 
@@ -111,7 +167,7 @@ footer{
 }
 
 .gap-card{
-    gap: 50px 10px;
+    gap: 20px;
 }
 
 .space-btwn{
@@ -123,7 +179,7 @@ footer{
 }
 
 .pdg-prova{
-    padding: 20px;
+    padding: 40px;
 }
 /* text utility */
 
@@ -133,4 +189,8 @@ footer{
 
 .text-red{
     color: red;
+}
+
+.text-small{
+    font-size: small;
 }
