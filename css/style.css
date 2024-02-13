@@ -132,6 +132,17 @@ img{
 }
 
 
+.description{
+    line-height: 22px;
+}
+
+.brand{
+    font-size: small;
+}
+
+.price{
+    font-weight: 700;
+}
 
 /* footer */
 
@@ -163,6 +174,10 @@ footer h2{
 
 .gap-card{
     gap: 40px 20px;
+}
+
+.gap-budges{
+    gap: 10px;
 }
 
 .space-btwn{
