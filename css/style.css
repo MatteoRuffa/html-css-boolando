@@ -90,6 +90,11 @@ section{
 
 /* footer */
 
+footer{
+    background-color: var(--color-footer-bg);
+    padding: 10px;
+}
+
 /* utility */
 
 .flex{
@@ -97,14 +102,16 @@ section{
     flex-wrap: wrap;
 }
 
-
-.gap-card{
-   
-    gap: 50px 10px;
-}
-
 .column{
     flex-direction: column;
+}
+
+.gap{
+    gap: 20px;
+}
+
+.gap-card{
+    gap: 50px 10px;
 }
 
 .space-btwn{
@@ -115,6 +122,9 @@ section{
     align-items: center;
 }
 
+.pdg-prova{
+    padding: 20px;
+}
 /* text utility */
 
 .text-white{
