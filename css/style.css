@@ -11,6 +11,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--color-primary);
 }
 
 a:hover {
@@ -40,117 +41,10 @@ body {
     margin: 0px auto;
     padding: 0px;
     padding: 50px 0px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
-/* header */
-header {
-    background-color: var(--color-header-bg);
-    padding: 15px 0px;
-    box-shadow: 1px 1px 5px var(--color-footer-bg);
-}
-
-.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    margin: 0 auto;
-    z-index: 1;
-}
-
-.logo {
-    width: 140px;
-}
-
-
-/* main */
-.card {
-    position: relative;
-    width: calc(100% / 3 - 20px);
-    cursor: pointer;
-}
-
-.card:hover .main-img {
-    display: none;
-}
-
-.card:hover .secondary-img {
-    display: block;
-}
-
-img {
-    display: block;
-    width: 100%;
-}
-
-.secondary-img {
-    display: none;
-}
-
-.heart {
-    background-color: var(--color-primary);
-    width: 53px;
-    text-align: center;
-    font-size: 35px;
-    position: absolute;
-    top: 1.5%;
-    right: 0px;
-}
-
-.heart:hover {
-    color: red;
-}
-
-.budges {
-    width: 50px;
-    text-align: center;
-    padding: 2px;
-}
-
-.bdgs-red {
-    background-color: red;
-    color: var(--color-primary);
-}
-
-.bdgs-green {
-    background-color: green;
-    color: var(--color-primary);
-    width: 100px;
-}
-
-.bdgs-position {
-    position: absolute;
-    top: 70%;
-    left: 0px;
-}
-
-
-.description {
-    line-height: 22px;
-}
-
-.brand {
-    font-size: small;
-    font-weight: 500;
-}
-
-.price {
-    font-weight: 700;
-}
-
-/* footer */
-
-footer {
-    background-color: var(--color-footer-bg);
-    padding: 10px 10px 30px;
-}
-
-footer h2 {
-    font-size: 20px;
-}
-
-/* utility */
+/* flex utility */
 
 .flex {
     display: flex;
@@ -201,4 +95,114 @@ footer h2 {
 
 .text-lrg {
     font-size: large;
+}
+
+/* header */
+header {
+    background-color: var(--color-header-bg);
+    padding: 15px 0px;
+    box-shadow: 0px 1px 3px var(--color-footer-bg);
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1000;
+}
+
+.logo {
+    width: 140px;
+}
+
+
+/* main */
+.card {
+    width: calc((100% / 3) - 20px);
+    cursor: pointer;
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image:hover .main-img {
+    display: none;
+}
+
+.card-image:hover .secondary-img {
+    display: block;
+}
+
+.card img {
+    width: 100%;
+}
+
+.secondary-img {
+    display: none;
+}
+
+.heart {
+    background-color: var(--color-primary);
+    width: 53px;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: 1.5%;
+    right: 0px;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.budges {
+    width: 50px;
+    text-align: center;
+    padding: 2px;
+    font-size: small;
+}
+
+.bdgs-red {
+    background-color: red;
+    color: var(--color-primary);
+}
+
+.bdgs-green {
+    background-color: green;
+    color: var(--color-primary);
+    width: 100px;
+}
+
+.bdgs-position {
+    position: absolute;
+    left: 0px;
+    bottom: 10%;
+}
+
+
+.description {
+    line-height: 22px;
+}
+
+.brand {
+    font-size: small;
+    font-weight: 500;
+}
+
+.price {
+    font-weight: 700;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--color-footer-bg);
+    padding: 10px 10px 30px;
+}
+
+footer h2 {
+    font-size: 20px;
 }
